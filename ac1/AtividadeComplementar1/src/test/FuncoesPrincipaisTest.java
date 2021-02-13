@@ -10,7 +10,7 @@ class FuncoesPrincipaisTest {
 	void test() {
 		Arranjo a = new Arranjo();
 		
-		assertEquals(510, a.menor(), "O menor deve ser 440");
+		assertEquals(510, a.menor(), "O menor deve ser 510");
 		
 		assertEquals(940, a.maior(), "O maior é 940");
 

@@ -1,13 +1,18 @@
 package test;
 
+import java.util.Arrays;
+
+
 public class Arranjo {
 	
-	public static Integer[] a = {940, 880, 830, 790, 750, 660, 650, 590, 510, 940};
-
+	public static int[] a = new int[] {940, 880, 830, 790, 750, 660, 650, 590, 510, 940};
+	public static int[] clone_a = a.clone();
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		// A array é ordenada com o metodo abaixo.
+		Arrays.sort(clone_a);
+		
+		System.out.println(clone_a[a.length-1]);
 
 	}
 
