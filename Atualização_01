@@ -1,0 +1,50 @@
+package test;
+
+import java.util.Arrays;
+
+
+public class Arranjo {
+	
+	private int[] a = new int[] {940, 880, 830, 790, 750, 660, 650, 590, 510, 940};
+	private int[] clone_a = this.a.clone();
+	private int MenorValor;
+	private int MaiorValor;
+	private int SomaValores;
+	private int Quantidade;
+	
+	public void main(String[] args) {
+		// A array Ã© ordenada com o metodo abaixo.
+		Arrays.sort(this.clone_a);
+		
+		System.out.println(this.clone_a[this.a.length-1]);
+
+	}
+
+	public Integer menor() {
+		return null;
+	}
+	
+	public Integer maior() {
+		return null;
+	}
+
+	public Integer soma() {
+		return null;
+	}
+
+	public Integer repeticoes(int i) {
+		
+		
+
+		return null;	
+	}
+	
+	public String Resultado() {
+		return "Valor menor: " + this.MenorValor + "\n" +
+				"Valor maior: " + this.MaiorValor + "\n" +
+				"Soma de todos: " + this.SomaValores + "\n" +
+				"Quantidade inteiro: " + this.Quantidade + "\n";
+	}
+	
+
+}
